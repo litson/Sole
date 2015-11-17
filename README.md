@@ -6,7 +6,7 @@ Overrid console.
 
 ### Features 
 
-Appropriate use of it in your development version.
+Appropriate use of `solejs` in your development version.
 
 And production version remove it, that's simple & no sad effects.
 
