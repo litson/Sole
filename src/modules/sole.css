@@ -1,0 +1,52 @@
+#sole {
+    font-size: 12px;
+    max-width: 640px;
+    width: 100%;
+    max-height: 300px;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 5px;
+    position: fixed;
+    top: 3%;
+    z-index: 999;
+    background: #333;
+    color: #fff;
+    border: 1px solid #ccc;
+    word-wrap: break-word;
+}
+
+#sole a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#sole .debugger-text-error {
+    color: red;
+}
+
+#sole .debugger-text-warn {
+    color: #8a6d3b;
+}
+
+#sole .debugger-text-info {
+    color: #31708f;
+}
+
+#sole .debugger-item {
+    display: block;
+    clear: both;
+    position: relative;
+    padding-right: 5em;
+}
+
+.debugger-btn {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+}
+
+.debugger-remove {
+    position: absolute;
+    right: 15px;
+    top: 0;
+}

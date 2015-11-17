@@ -1,0 +1,20 @@
+<div id="sole" style="display: none" v-show="messages.length">
+    <div>
+        <a
+                href="javascript:;"
+                v-if="messages.length"
+                class="debugger-btn"
+                @click="removeAllMessage">clear</a>
+        <!--拖动可移动位置-->
+    </div>
+    <div
+            v-for="item in messages"
+            track-by="$index"
+            class="debugger-item debugger-item-{{item.type}}">
+        <pre><code class="javascript" v-html="item | preview | highlight"></code></pre>
+        <a
+                href="javascript:;"
+                class="debugger-btn debugger-remove"
+                @click="removeMessage($index)">remove</a>
+    </div>
+</div>
