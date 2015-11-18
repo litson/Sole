@@ -14,7 +14,7 @@ And production version remove it, that's simple & no sad effects.
 
 ```html
 <body>
-
+<!-- Snap the body tag. -->
 <srcript src='build/sole.js'></script>
 
 <script>
